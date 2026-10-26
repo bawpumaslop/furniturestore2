@@ -1,0 +1,1 @@
+const form = document.querySelector('#enquiry-form'); if(form) form.addEventListener('submit', function(event) {event.preventDefault(); document.querySelector('#form-status').textContent = 'Your enquiry preview is complete. This demo has not sent or stored your information. Please use the confirmed business contact details once they are added.';});
